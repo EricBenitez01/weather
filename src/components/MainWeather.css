@@ -1,0 +1,41 @@
+.mainInfo{
+    box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.72);
+    -webkit-box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.72);
+    -moz-box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.72);
+    background-color: rgb(21 132 221);
+    padding: 40px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    
+}
+.city{
+    font-size: 32;
+    text-align: center;
+    font-weight: bolder;
+}
+.country{
+    font-size: 20px;
+    text-align: center;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}   
+.icon{
+    margin-top: 15px;
+    background-color: #040404;
+    border-radius: 100%;
+}
+.condition {
+    font-size: 24px;
+}
+.current {
+    font-size: 38px;
+    font-weight: bold;
+}
+.temp{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
